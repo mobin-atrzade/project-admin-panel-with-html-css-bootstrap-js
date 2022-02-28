@@ -1,0 +1,17 @@
+@font-face {
+  font-family: IRANSans;
+  src: url(../fonts/IRANSans/IRANSansWeb_Light.woff) format("woff");
+}
+
+* {
+  direction: rtl;
+  text-align: right;
+  font-family: IRANSans;
+}
+.bg-gray {
+  background-color: #404e67;
+  color: #dcdcdc;
+}
+.pointer {
+  cursor: pointer;
+}
