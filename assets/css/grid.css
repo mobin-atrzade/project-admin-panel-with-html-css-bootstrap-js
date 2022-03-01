@@ -61,7 +61,7 @@
 }
 .header-comment {
   position: absolute;
-  /* left: 40px; */
+  left: -20px;
   height: calc(100vh - 3.5rem);
   width: 18rem;
   background-color: #fff;
@@ -98,7 +98,7 @@
 .header-profile {
   position: absolute;
   margin-top: 0.2rem;
-  left: 0;
+  left: -25px;
   z-index: 1000;
   height: auto;
   width: 13rem;
@@ -234,4 +234,56 @@ button:hover {
   padding: 1rem;
   min-height: calc(100vh - 3.5rem);
   background-color: #f3f3f3;
+}
+.info-box-body h5 {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+.info-box-body p {
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+.info-box-icon i {
+  font-size: 2rem;
+}
+.info-box-footer {
+  font-size: 0.7rem;
+}
+.main-body-container {
+  background-color: #ffffff;
+  margin: 1rem 0;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+.main-body-container-header h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.main-body-container-header p {
+  font-size: 0.8rem;
+  color: #777;
+}
+.body-content p {
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 767.98px) {
+  .sidebar {
+    display: none;
+    width: 320px;
+    z-index: 9;
+    height: calc(100% - 3.5rem);
+    position: fixed;
+    top: 3.5rem;
+    right: 0;
+  }
+  .sidebar-container {
+    position: relative;
+    width: 320px;
+    height: 100%;
+    top: 0;
+  }
+  .main-body {
+    width: 100%;
+    z-index: 1;
+  }
 }
